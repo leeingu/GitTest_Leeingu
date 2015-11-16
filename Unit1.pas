@@ -42,6 +42,7 @@ end;
 procedure TForm1.Button3Click(Sender: TObject);
 begin
     ShowMessage('버튼 3 추가');
+    Label1.Caption := '버튼 3 추가';
 end;
 
 end.
