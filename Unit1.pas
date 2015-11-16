@@ -36,11 +36,12 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
   ShowMessage('버튼 2 추가');
+  Label1.Caption := 'dddd';
 end;
 
 procedure TForm1.Button3Click(Sender: TObject);
 begin
-  ShowMessage('버튼 3 추가');
+    ShowMessage('버튼 3 추가');
 end;
 
 end.

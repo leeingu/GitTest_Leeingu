@@ -14,10 +14,17 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
+
     Left = 224
     Top = 152
     Width = 31
     Height = 13
+
+    Left = 112
+    Top = 120
+    Width = 201
+    Height = 49
+
     Caption = 'Label1'
   end
   object Button1: TButton
@@ -39,7 +46,11 @@ object Form1: TForm1
     OnClick = Button2Click
   end
   object Button3: TButton
+
     Left = 352
+
+    Left = 368
+
     Top = 56
     Width = 75
     Height = 25
