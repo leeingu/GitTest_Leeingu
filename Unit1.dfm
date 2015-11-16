@@ -13,6 +13,13 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 224
+    Top = 152
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
   object Button1: TButton
     Left = 72
     Top = 56
@@ -23,12 +30,21 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 240
+    Left = 224
     Top = 56
     Width = 75
     Height = 25
     Caption = 'Button2'
     TabOrder = 1
     OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 352
+    Top = 56
+    Width = 75
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 2
+    OnClick = Button3Click
   end
 end
